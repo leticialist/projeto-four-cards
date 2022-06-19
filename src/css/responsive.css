@@ -1,0 +1,47 @@
+@media (max-width: 1125px) {  
+
+    .container {
+        margin: 70px;
+    }
+
+    .items {
+        display: block;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .container {
+        margin: 0 auto ;
+        width: 100%;
+    }
+
+    .about {
+        margin: 70px 0 0 ;
+    }
+
+    .about .title1{
+        font-size: 22px;
+    }
+
+    .about .title2 {
+        font-size: 21px;
+    }
+
+    .about .text {
+        margin: 18px auto;
+        width: 320px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .items {
+        margin-top: 50px;
+    }
+
+    .item {
+        width: 310px;
+    }
+
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: var(--light-gray);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.about {
+    max-width: 500px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.about .title1 {
+    font-size: 34px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.about .title2 {
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.about .text {
+    font-size: 15px;
+    margin-top: 18px;
+    color: var(--grayish-blue);
+}
+
+.items {
+   margin-top: 65px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 30px;
+}
+
+.item {
+    margin-bottom: 30px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    padding: 28px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.466) 0px 8px 24px;
+}
+
+.item h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: var(--dark-blue);
+}
+
+.item p {
+    font-size: 12px;
+    width: 280px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    color: var(--grayish-blue);
+}
+
+.item .icon {
+    width: 63px;
+    margin-top: 38px;
+    margin-left: 77%;
+}
+
+.supervisor {
+    border-top: solid 4px var(--cyan);
+}
+
+.team-builder {
+    border-top: solid 4px var(--red);
+}
+
+.karma {
+    border-top: solid 4px var(--orange);
+}
+
+.calculator {
+    border-top: solid 4px var(--blue);
+}
